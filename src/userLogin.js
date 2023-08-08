@@ -64,7 +64,7 @@ const UserLogin = () => {
             {/* Sign In Button */}
             <div className="div d-flex p-0">
               <button className="btn btn-primary px-3 w-100" type="submit">
-                SIGN IN
+                Login as a User
               </button>
             </div>
 
