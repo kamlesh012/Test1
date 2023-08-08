@@ -4,7 +4,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faKey, faUserCircle } from "@fortawesome/free-solid-svg-icons";
-const SignIn = () => {
+const UserLogin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -72,6 +72,7 @@ const SignIn = () => {
             <div className="d-flex p-0">
               <div className="col-8">
                 <small>
+                  {/* Need to fix this link below */}
                   <a href="./user_registration.html">Register Now</a>
                 </small>
               </div>
@@ -145,4 +146,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default UserLogin;

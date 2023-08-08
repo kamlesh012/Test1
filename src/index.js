@@ -4,7 +4,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import SignIn from "./userLogin";
+import UserLogin from "./userLogin";
 import VendorRegistration from "./vendorRegistration";
 import UserRegistration from "./userRegistration";
 import Home from "./home";
@@ -16,8 +16,8 @@ const routes = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/signin",
-    element: <SignIn />,
+    path: "/userlogin",
+    element: <UserLogin />,
   },
   {
     path: "/vendorreg",
